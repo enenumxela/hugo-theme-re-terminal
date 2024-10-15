@@ -48,7 +48,7 @@ You can find all of them in the browser's page inspector, but here is the list w
     --tablet: "max-width: 900px"; /* tablet breakpoint */
 
     /* code syntax */
-    /* take a look at themes/re-terminal/assets/css/syntax.scss to understand in detail which color stands for */
+    /* take a look at themes/terminal/assets/css/syntax.scss to understand in detail which color stands for */
     --syntax-func-color: color-mix(in srgb, var(--accent) 70%, #999 30%); 
     --syntax-var-color: color-mix(in srgb, var(--accent) 90%, transparent);
     --syntax-value-color: color-mix(in srgb, var(--accent), white);

@@ -27,12 +27,12 @@ So, welcome aboard! I'm excited to have you join us on this journey as we shape 
 
 ----
 
-![re-Terminal](https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/images/screenshot.png?raw=true)
+![re-Terminal](https://github.com/enenumxela/hugo-theme-terminal/blob/main/images/screenshot.png?raw=true)
 
 
-### DEMO and some blog posts about re-Terminal - https://re-terminal.nebrowser.com/
+### DEMO and some blog posts about re-Terminal - https://terminal.nebrowser.com/
 
-### Visit repo's wiki (WIP) - https://github.com/mirus-ua/hugo-theme-re-terminal/wiki 
+### Visit repo's wiki (WIP) - https://github.com/enenumxela/hugo-theme-terminal/wiki 
 
 ### ⚠️ The theme needs at least Hugo **Extended** v0.128.0.
 re-Terminal before v2.1.0 may work with versions of HUGO less than v0.128.0 below to v0.90.0 if you change the min version manually in mod files, but I didn't test it
@@ -113,7 +113,7 @@ A custom syntax highlighting based on PrismJS. All you need to do is to wrap you
 
 ## How to start
 
-You can download the theme manually by going to [https://github.com/mirus-ua/hugo-theme-re-terminal.git](https://github.com/mirus-ua/hugo-theme-re-terminal.git) and pasting it to `themes/re-terminal` in your root directory.
+You can download the theme manually by going to [https://github.com/enenumxela/hugo-theme-terminal.git](https://github.com/enenumxela/hugo-theme-terminal.git) and pasting it to `themes/terminal` in your root directory.
 
 You can also choose **one of the 3 possibilities** to install the theme:
 
@@ -131,7 +131,7 @@ You can also choose **one of the 3 possibilities** to install the theme:
 # you fetch the theme module.
 #
 # hugo mod init [your website/module name]
-hugo mod get github.com/mirus-ua/hugo-theme-re-terminal
+hugo mod get github.com/enenumxela/hugo-theme-terminal
 ```
 
 and in your config file add:
@@ -139,9 +139,9 @@ and in your config file add:
 ```toml
 [module]
   # this is needed when you fetch the theme as a submodule to your repo.
-  # replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
+  # replacements = "github.com/enenumxela/hugo-theme-terminal -> themes/terminal"
 [[module.imports]]
-  path = 'github.com/mirus-ua/hugo-theme-re-terminal'
+  path = 'github.com/enenumxela/hugo-theme-terminal'
 ```
 
 Keep in mind that the theme by default won't show up in the `themes` directory. This means that you are using the theme as it was on the repository at the moment you fetched it. Your local `go.sum` file keeps all the references. Read more about Hugo Modules in the [official documentation](https://gohugo.io/hugo-modules/).
@@ -149,31 +149,31 @@ Keep in mind that the theme by default won't show up in the `themes` directory. 
 ### Install theme locally
 
 ```bash
-git clone https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+git clone https://github.com/enenumxela/hugo-theme-terminal.git themes/terminal
 ```
 
-This will clone the repository directly to the `themes/re-terminal` directory.
+This will clone the repository directly to the `themes/terminal` directory.
 
 ### Install theme as a submodule
 
 ```bash
-git submodule add -f https://github.com/mirus-ua/hugo-theme-re-terminal.git themes/re-terminal
+git submodule add -f https://github.com/enenumxela/hugo-theme-terminal.git themes/terminal
 ```
 
-This will install the repository as a sumbodule in the `themes/re-terminal` directory.
+This will install the repository as a sumbodule in the `themes/terminal` directory.
 
 ⚠️ If you encounter any issues with:
 
 ```bash
-Error: module "re-terminal" not found; either add it as a Hugo Module or store it in "[...your custom path]/themes".: module does not exist
+Error: module "terminal" not found; either add it as a Hugo Module or store it in "[...your custom path]/themes".: module does not exist
 ```
 
-then please try to remove `theme = "re-terminal"` from your config file.
+then please try to remove `theme = "terminal"` from your config file.
 
 ## How to run your site
 
 ```bash
-hugo server -t re-terminal
+hugo server -t terminal
 ```
 
 and go to `localhost:1313` in your browser. From now on all the changes you make will go live, so you don't need to refresh your browser every single time.
@@ -187,7 +187,7 @@ baseurl = "/"
 languageCode = "en-us"
 # Add it only if you keep the theme in the `themes` directory.
 # Remove it if you use the theme as a remote Hugo Module.
-theme = "re-terminal"
+theme = "terminal"
 paginate = 5
 
 [params]
@@ -245,7 +245,7 @@ paginate = 5
   # [params.banner]
   # dismissible = false
   # text = "Check it out on GitHub"
-  # url = "https://github.com/mirus-ua/hugo-theme-re-terminal"
+  # url = "https://github.com/enenumxela/hugo-theme-terminal"
 
 
 
@@ -300,9 +300,9 @@ paginate = 5
   # In case you would like to make changes to the theme and keep it locally in you repository,
   # uncomment the line below (and correct the local path if necessary).
   # --
-  # replacements = "github.com/mirus-ua/hugo-theme-re-terminal -> themes/re-terminal"
+  # replacements = "github.com/enenumxela/hugo-theme-terminal -> themes/terminal"
 [[module.imports]]
-  path = 'github.com/mirus-ua/hugo-theme-re-terminal'
+  path = 'github.com/enenumxela/hugo-theme-terminal'
 ```
 
 to `config.toml` file in your Hugo root directory and change params fields. In case you need, here's [a YAML version](https://gist.github.com/panr/9eeea6f595c257febdadc11763e3a6d1).
@@ -311,27 +311,27 @@ to `config.toml` file in your Hugo root directory and change params fields. In c
 
 ## Post archetype
 
-See the default `post` file params supported by the theme — https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/archetypes/posts.md
+See the default `post` file params supported by the theme — https://github.com/enenumxela/hugo-theme-terminal/blob/main/archetypes/posts.md
 
 ## Add-ons
 
-- **Comments** — for adding comments to your blog posts please take a look at `layouts/partials/comments.html` https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/layouts/partials/comments.html.
-- **Comments counter** — for adding comments counter to your blog posts please take a look at `layouts/partials/comments_counter.html` https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/layouts/partials/comments_counter.html.
-- **Extended Head** — please take a look at `layouts/partials/extended_head.html` https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/layouts/partials/extended_head.html
-- **Extended Footer** — please take a look at `layouts/partials/extended_footer.html` https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/layouts/partials/extended_footer.html
+- **Comments** — for adding comments to your blog posts please take a look at `layouts/partials/comments.html` https://github.com/enenumxela/hugo-theme-terminal/blob/main/layouts/partials/comments.html.
+- **Comments counter** — for adding comments counter to your blog posts please take a look at `layouts/partials/comments_counter.html` https://github.com/enenumxela/hugo-theme-terminal/blob/main/layouts/partials/comments_counter.html.
+- **Extended Head** — please take a look at `layouts/partials/extended_head.html` https://github.com/enenumxela/hugo-theme-terminal/blob/main/layouts/partials/extended_head.html
+- **Extended Footer** — please take a look at `layouts/partials/extended_footer.html` https://github.com/enenumxela/hugo-theme-terminal/blob/main/layouts/partials/extended_footer.html
 
 ### Low-level add-ons
-- **Post base** — Renders bare minimum of posts' content. For motivation and details take a look at https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/layouts/partials/extended_footer.html
+- **Post base** — Renders bare minimum of posts' content. For motivation and details take a look at https://github.com/enenumxela/hugo-theme-terminal/blob/main/layouts/partials/extended_footer.html
 
 ## How to edit the theme <a id="how-to-edit" />
 
-If you are using as a remote Hugo Module (you don't have the theme files in the `theme/re-terminal`) and you have to override only some of the styles, you can do this easily by adding `static/style.css` in your root directory and point things you want to change.
+If you are using as a remote Hugo Module (you don't have the theme files in the `theme/terminal`) and you have to override only some of the styles, you can do this easily by adding `static/style.css` in your root directory and point things you want to change.
 
-If you have the theme files in the theme directory, then you can directly edit anything in the theme, you just have to go to `themes/re-terminal` and modify the files. No compilation step needed.
+If you have the theme files in the theme directory, then you can directly edit anything in the theme, you just have to go to `themes/terminal` and modify the files. No compilation step needed.
 
 ## Found a bug? <a id="bug" />
 
-If you spot any bugs, please use [Issue Tracker](https://github.com/mirus-ua/hugo-theme-re-terminal/issues) or create a new [Pull Request](https://github.com/mirus-ua/hugo-theme-re-terminal/pulls) to fix the issue.
+If you spot any bugs, please use [Issue Tracker](https://github.com/enenumxela/hugo-theme-terminal/issues) or create a new [Pull Request](https://github.com/enenumxela/hugo-theme-terminal/pulls) to fix the issue.
 
 ## New cool idea or feature? <a id="feature" />
 
@@ -350,15 +350,10 @@ This will help keeping the theme close to its roots, and also allow anyone who w
 
 Sounds OK? Cool, let's rock! 🤘
 
-## re-Terminal theme user?
-
-I'd be happy to know more about you and what you are doing. If you want to share it, please make a contribution and [add your site to the list](https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/USERS.md)! 🤗
-
-
 ## License
 
 Copyright © 2019-2022 Radosław Kozieł ([@panr](https://twitter.com/panr))
 
 Copyright © 2024-now Mirus
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/enenumxela/hugo-theme-terminal/blob/main/LICENSE.md) for additional licensing information.

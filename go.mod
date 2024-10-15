@@ -1,3 +1,3 @@
-module github.com/mirus-ua/hugo-theme-re-terminal
+module github.com/enenumxela/hugo-theme-terminal
 
 go 1.22

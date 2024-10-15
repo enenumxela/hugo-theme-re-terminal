@@ -1,5 +1,5 @@
 {
-  "author": "Mirus <@mirus-ua> <mirusim@gmail.com>",
+  "author": "Alex <@enenumxela> <62714471+enenumxela@users.noreply.github.com>",
   "browserslist": [
     "last 2 versions",
     ">1%",
@@ -31,7 +31,7 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "name": "re-terminal",
+  "name": "terminal",
   "scripts": {
     "test": "echo 'Test'"
   },

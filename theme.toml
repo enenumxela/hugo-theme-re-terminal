@@ -1,9 +1,9 @@
-name = "re-Terminal"
+name = "Terminal"
 license = "MIT"
-licenselink = "https://github.com/mirus-ua/hugo-theme-re-terminal/blob/main/LICENSE.md"
+licenselink = "https://github.com/enenumxela/hugo-theme-terminal/blob/main/LICENSE.md"
 description = "A simple, retro theme for Hugo."
-homepage = "https://github.com/mirus-ua/hugo-theme-re-terminal/"
-demosite = "https://re-terminal.nebrowser.com"
+homepage = "https://github.com/enenumxela/hugo-theme-terminal/"
+demosite = "https://terminal.nebrowser.com"
 tags = [
   "blog",
   "clean",

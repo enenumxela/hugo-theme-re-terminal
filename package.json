@@ -1,7 +1,7 @@
 {
-  "name": "re-terminal",
+  "name": "terminal",
   "version": "1.2.0",
-  "author": "Mirus <@mirus-ua> <mirusim@gmail.com>",
+  "author": "Alex <@enenumxela> <62714471+enenumxela@users.noreply.github.com>",
   "main": "index.js",
   "license": "MIT",
   "scripts": {
